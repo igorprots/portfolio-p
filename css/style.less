@@ -329,6 +329,7 @@ grid-template-rows: repeat(3,370px);
 
 .gallery__photo{
     width:100%;
+    display: none;
 }
 
 .gallery__photo img{
@@ -419,6 +420,16 @@ z-index: -2;
     width:100%;
 }
 
+.about__btn{
+    display: flex;
+justify-content: space-around;
+}
+
+
+.about__btn input{
+        margin-left: 0;
+    }  
+
 // Reviews
 
 .reviews{
@@ -434,7 +445,7 @@ z-index: -2;
 color: @white;
 padding: 80px 200px;
 font-size:.8rem;
-font-weight:300px;
+font-weight:300;
 }
 
 .reviews__client{
